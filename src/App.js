@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
-//645829af
+
 
 const API_URL = process.env.REACT_APP_API_KEY;
 
