@@ -4,7 +4,7 @@ import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
 //645829af
 
-const API_URL = 'http://www.omdbapi.com?apikey=645829af';
+const API_URL = process.env.REACT_APP_API_KEY;
 
 const App = () => {
 
